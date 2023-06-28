@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(30, 38%, 92%);
+    }
+   h1 {
+    font-family: 'Fraunces', serif;
+    
+   }
+   
+
+    img {
+      height: 400px;
+      width: 300px;
+      border-radius: 5% 0 0 5%;
+    }
+    .vnatre {
+      display: inline-block;
+     
+    }
+    .se {
+      text-align: left;
+      float: right;
+    }
+    #glaven {
+      width: 600px;
+      border-radius: 5%;
+      height: 400px;
+      
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    p {
+      width: 270px;
+    }
+    p{
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      
+    }
+    #heading {
+      width: 240px;
+    }
+    #perfume {
+      padding-top: 10px ;
+    }
+    #text {
+      width: 240px;
+    }
+    #cena {
+      color: hsl(158, 36%, 37%);
+      font-weight: bold;
+      font-size: 30px;
+      padding-right: 15px;
+    }
+    button {
+      background-color: hsl(158, 36%, 37%);
+      border-radius: 3%;
+      padding: 5%;
+      width: 250px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="glaven">
+    <div class="vnatre"><img src="images/image-product-desktop.jpg" alt="perfume"></div>
+    <div class="vnatre se">
+      <p id="perfume">PERFUME</p>
+  <h1 id="heading">Gabrielle Essence Eau De Parfum</h1>
+ 
+ <p id="text">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.</p>
+  
+
+  <p><span id="cena">$149.99</span> <del>$169.99</del></p>
+  <button>Add to Cart</button>
+  
+</div>
+  
+ </div>
+  
+</body>
+</html>
